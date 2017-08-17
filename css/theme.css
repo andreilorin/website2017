@@ -2321,6 +2321,12 @@ select.form-control-lg:not([size]):not([multiple]), .input-group-lg > select.for
 .img-fluid {
   max-width: 100%;
   height: auto; }
+  
+.linkhover {
+  border-radius: 1px;
+  }
+  .linkhover:hover{
+    border: 1px solid #ddd;}  
 
 .img-thumbnail {
   padding: 0.25rem;
