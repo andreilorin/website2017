@@ -2470,7 +2470,9 @@ button.list-group-item-danger {
   display: block; }
 
 .navbar {
-  position: relative;
+  position: fixed !important;
+  z-index: 9999 !important;
+  width: 100% !important;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
