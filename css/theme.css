@@ -20,6 +20,10 @@ html, body {
   --primaryblue: #00b0eb;
 }
 
+#about {
+  background-color: red;
+}
+
 .twitter-timeline {
   height: 450px !important;
 }
