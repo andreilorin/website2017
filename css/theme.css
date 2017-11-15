@@ -16,14 +16,22 @@ html, body {
 * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
 */
 
+/* global css variable */
 :root {
   --primaryblue: #00b0eb;
 }
 
+/* css for tag */
+p {
+  color: black;
+}
+
+/* css for id */
 #about {
   background-color: red;
 }
 
+/* css for class */
 .twitter-timeline {
   height: 450px !important;
 }

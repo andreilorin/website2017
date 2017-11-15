@@ -8,13 +8,19 @@ $('a[href*="#"]')
    this.style.color = 'red';
 });
 
-// $('h1.text-white')
-// .click(function(event) {
-//    this.style.background = 'red';
-// });
+$('h1.text-white')
+.click(function(event) {
+   this.style.background = 'red';
+});
 
 // Vanilla
 function myFunction() {
     var x = document.getElementById("testandrei");
     x.style.background = 'red';
 }
+
+[].forEach.call(document.querySelectorAll('h1.text-white.display-1'), function(el) {
+    el.addEventListener('click', function() {
+      this.style.background = 'red';
+    })
+});
